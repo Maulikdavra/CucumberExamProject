@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "Given: User is on the Techfios final exam page",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2767537800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppDataTest.beforeTest()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "1 User should able to change color as per test case",
+        "description": "",
+        "id": "validate-techfios-final-exam-login-functionality;1-user-should-able-to-change-color-as-per-test-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2157804800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to set sky blue Background color",
+            "match": {
+              "location": "AppDataTest.user_should_be_able_to_set_sky_blue_Background_color()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90283500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to set White Background color",
+            "match": {
+              "location": "AppDataTest.user_should_be_able_to_set_White_Background_color()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validate Techfios Final Exam login functionality",
+    "description": "",
+    "id": "validate-techfios-final-exam-login-functionality",
+    "keyword": "Feature",
+    "uri": "feature/AddData.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ColorFeature"
+      }
+    ]
+  }
+]
